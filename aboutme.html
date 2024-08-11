@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Portfolio</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="mediaqueries.css" />
+	</head>
+	<body>
+		<nav id="desktop-nav">
+			<div class="logo">Ayman Abid</div>
+			<div>
+				<ul class="nav-links">
+					<li><a href="index.html">home</a></li>
+					<li><a href="aboutme.html">About me </a></li>
+					<li><a href="expierience.html">Experience</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<nav id="hamburger-nav">
+			<div class="logo">Ayman Abid</div>
+			<div class="hamburger-menu">
+				<div class="hamburger-icon">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="menu-links">
+					<li><a href="index.html">home</a></li>
+					<li><a href="aboutme.html">About me</a></li>
+					<li><a href="expierience.html">Experience</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</div>
+			</div>
+		</nav>
+		<section id="about">
+			<p class="p1">,</p>
+			<h1 class="title">About Me</h1>
+			<div class="section-container">
+				<div class="section__pic-container">
+					<img
+						src="./assets/JESUS .png"
+						alt="Profile picture"
+						class="about-pic"
+					/>
+				</div>
+				<div class="about-details-container">
+					<div class="about-containers">
+						<div class="details-container">
+							<img src="./assets/book.png" alt="book icon" class="icon" />
+							<h3>Experience</h3>
+							<p>3 jaar+ hobbyist <br />voice actor en graphische designer</p>
+						</div>
+						<div class="details-container">
+							<img
+								src="./assets/school hat.png"
+								alt="school hat"
+								class="icon"
+							/>
+							<h3>Education</h3>
+							<p>Campus de Brug vilvoorde<br />gediplomeerd</p>
+							<p>Erasmus Hoge School brussels<br />momenteel student</p>
+						</div>
+					</div>
+					<div class="text-container">
+						<p>
+							Als ervaren grafisch ontwerper in het Adobe-ecosysteem beheers ik
+							de kunst van creatie met tools zoals Illustrator, Photoshop, Adobe
+							Premiere en After Effects. Mijn passie ligt in het vormgeven van
+							visuele verhalen en het brengen van ideeën tot leven door middel
+							van deze krachtige ontwerptoepassingen. Met een diepgaande kennis
+							van het volledige Adobe-spectrum, ben ik toegewijd aan het leveren
+							van hoogwaardige en visueel verbluffende ontwerpen.
+						</p>
+					</div>
+				</div>
+			</div>
+			<img
+				src="./assets/black-arrow-down-icon-png-16.png"
+				alt="Arrow icon"
+				class="icon arrow"
+				onclick="location.href='./#experience'"
+			/>
+		</section>
+		<section id="experience">
+			<img
+				src="./assets/black-arrow-down-icon-png-16.png"
+				alt="Arrow icon"
+				class="icon arrow"
+				onclick="location.href='./#projects'"
+			/>
+		</section>
+		<section id="projects">
+			<p class="section__text__p1">Browse My Recent</p>
+			<h1 class="title">Projects</h1>
+			<div class="experience-details-container">
+				<div class="about-containers">
+					<div class="details-container color-container">
+						<div class="article-container">
+							<img
+								src="./assets/logo-black-itch.svg"
+								alt="Project 1"
+								class="itch"
+							/>
+						</div>
+						<h2 class="experience-sub-title project-title">
+							geluiden bewerking voor sauntered
+						</h2>
+						<div class="btn-container">
+							<button
+								class="btn btn-color-2 project-btn"
+								onclick="location.href='https://kakoon.itch.io/sauntered'"
+							>
+								itch.io
+							</button>
+						</div>
+					</div>
+					<div class="details-container color-container">
+						<div class="article-container">
+							<img
+								src="./assets/youtube.png"
+								alt="youtube video"
+								class="project-img"
+							/>
+						</div>
+						<h2 class="experience-sub-title project-title">
+							vertaalwerk voor vrienden
+						</h2>
+						<div class="btn-container">
+							<button
+								class="btn btn-color-2 project-btn"
+								onclick="location.href='https://youtu.be/evbqzhRCCy8?si=7dw8-wi13XMr1xHI'"
+							>
+								youtube
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<img
+				src="./assets/black-arrow-down-icon-png-16.png"
+				alt="Arrow icon"
+				class="icon arrow"
+				onclick="location.href='./#contact'"
+			/>
+		</section>
+		<section id="contact">
+			<p class="section__text__p1">Get in Touch</p>
+			<h1 class="title">Contact Me</h1>
+			<div class="contact-info-upper-container">
+				<div class="contact-info-container">
+					<img src="./assets/post.png" alt="Email icon" class="icon" />
+					<p>
+						<a href="mailto:aymanabid35@gmail.com">aymanabid35@gmail.com</a>
+					</p>
+				</div>
+				<div class="contact-info-container">
+					<img
+						src="./assets/linkedin.png"
+						alt="LinkedIn icon"
+						class="icon contact-icon"
+					/>
+					<p>
+						<a href="https://www.linkedin.com/in/ayman-abid-498152252/"
+							>LinkedIn</a
+						>
+					</p>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<div class="nav-links-container">
+					<ul class="nav-links">
+						<li><a href="#about">About</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			<p>Copyright &#169; 2023 Erasmus Hoge School. All Rights Reserved.</p>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
